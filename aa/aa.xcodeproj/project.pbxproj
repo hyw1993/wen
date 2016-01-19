@@ -15,6 +15,8 @@
 		AF0B88881C4DB969003D2EE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF0B88861C4DB969003D2EE2 /* LaunchScreen.storyboard */; };
 		AF0B88931C4DB969003D2EE2 /* aaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0B88921C4DB969003D2EE2 /* aaTests.m */; };
 		AF0B889E1C4DB969003D2EE2 /* aaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0B889D1C4DB969003D2EE2 /* aaUITests.m */; };
+		AF0B88AE1C4DBB01003D2EE2 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0B88AC1C4DBB01003D2EE2 /* MyViewController.m */; };
+		AF0B88AF1C4DBB01003D2EE2 /* MyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF0B88AD1C4DBB01003D2EE2 /* MyViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		AF0B88991C4DB969003D2EE2 /* aaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF0B889D1C4DB969003D2EE2 /* aaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = aaUITests.m; sourceTree = "<group>"; };
 		AF0B889F1C4DB969003D2EE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF0B88AB1C4DBB01003D2EE2 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		AF0B88AC1C4DBB01003D2EE2 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		AF0B88AD1C4DBB01003D2EE2 /* MyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +115,9 @@
 				AF0B88861C4DB969003D2EE2 /* LaunchScreen.storyboard */,
 				AF0B88891C4DB969003D2EE2 /* Info.plist */,
 				AF0B88781C4DB969003D2EE2 /* Supporting Files */,
+				AF0B88AB1C4DBB01003D2EE2 /* MyViewController.h */,
+				AF0B88AC1C4DBB01003D2EE2 /* MyViewController.m */,
+				AF0B88AD1C4DBB01003D2EE2 /* MyViewController.xib */,
 			);
 			path = aa;
 			sourceTree = "<group>";
@@ -245,6 +253,7 @@
 			files = (
 				AF0B88881C4DB969003D2EE2 /* LaunchScreen.storyboard in Resources */,
 				AF0B88851C4DB969003D2EE2 /* Assets.xcassets in Resources */,
+				AF0B88AF1C4DBB01003D2EE2 /* MyViewController.xib in Resources */,
 				AF0B88831C4DB969003D2EE2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +281,7 @@
 			files = (
 				AF0B88801C4DB969003D2EE2 /* ViewController.m in Sources */,
 				AF0B887D1C4DB969003D2EE2 /* AppDelegate.m in Sources */,
+				AF0B88AE1C4DBB01003D2EE2 /* MyViewController.m in Sources */,
 				AF0B887A1C4DB969003D2EE2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
